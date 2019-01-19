@@ -1,0 +1,31 @@
+﻿spring:
+  profiles:
+    active:
+      - dev
+
+---
+server:
+  port: 8201
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-client-dev
+eureka:
+  client:
+    service-url:
+      default-zone: http://lt-dev.com:8761/eureka
+    
+---
+server:
+  port: 8202
+spring:
+  profiles: prod
+  application:
+    name: springcloud-config-client-prod
+eureka:
+  client:
+    service-url:
+      default-zone: http://lt.com:8761/eureka
+    
+#必须保存为UTF-8格式
+      
