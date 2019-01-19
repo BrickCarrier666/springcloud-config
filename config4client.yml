@@ -13,7 +13,7 @@ spring:
 eureka:
   client:
     service-url:
-      default-zone: http://lt-dev.com:8761/eureka
+      defaultZone: http://lt-dev.com:8761/eureka
     
 ---
 server:
@@ -25,7 +25,7 @@ spring:
 eureka:
   client:
     service-url:
-      default-zone: http://lt.com:8761/eureka
+      defaultZone: http://lt.com:8761/eureka
     
 #必须保存为UTF-8格式
       
