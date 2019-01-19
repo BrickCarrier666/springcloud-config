@@ -17,7 +17,7 @@ eureka:
     
 ---
 server:
-  port: 8202
+  port: 8203
 spring:
   profiles: prod
   application:
@@ -26,8 +26,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://lt.com:8761/eureka
-demo:
-  id: test
     
 #必须保存为UTF-8格式
       
