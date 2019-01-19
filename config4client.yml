@@ -26,6 +26,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://lt.com:8761/eureka
+demo:
+  id: test
     
 #必须保存为UTF-8格式
       
